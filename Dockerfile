@@ -15,4 +15,4 @@ RUN pip3 install -U -r requirements.txt
 RUN npm install -g npm@latest
 RUN pip3 install zaid
 
-CMD ["bash "start"]
+CMD bash start
